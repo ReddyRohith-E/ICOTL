@@ -1,0 +1,44 @@
+.specialSessionBody{
+    width: 70%;
+    margin: 20px auto;
+    line-height: 32px;
+    display: grid;
+    row-gap: 15px;
+}
+
+.specialSessionBody .title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.specialSessionBody .text{
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.specialSessionBody .subTitle{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ssPointsDiv{
+    display: flex;
+    align-items: start;
+    column-gap: 15px;
+    margin-bottom: 15px;
+}
+
+.ssPointsDiv svg{
+    margin-top: 5px;
+}
+.thankyouNote{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:500px) {
+    .specialSessionBody{
+        width: 94%;
+    }
+}

@@ -1,0 +1,61 @@
+.committee{
+    margin-top: 30px;
+    display: grid;
+    gap:10px;
+    width : 50%;
+    margin : 30px auto 50px;
+}
+
+
+.accordionDiv{
+    padding: 5px ;
+    border-radius: 10px !important;
+    margin: 0px !important;
+    box-shadow: 2px 3px 10px 0px rgba(36, 34, 34, 0.2) !important;
+    background-image: linear-gradient(to right, rgba(105, 217, 232, 0), rgb(220, 164, 34));
+}
+
+.accordionDiv:nth-child(odd){
+    background-color: #faaa4f !important;
+}
+
+.css-o4b71y-MuiAccordionSummary-content.Mui-expanded{
+    margin : 20px 0 20px !important;
+}
+
+
+.committeeTitle{
+    font-size: 1.2rem !important;
+    font-weight: 550 !important;
+    margin-left: 10px !important;
+}
+
+
+.accordionBody{
+    display: grid;
+    margin: -15px 10px 0 35px !important;
+    row-gap: 5px;
+}
+
+
+.committeeMember{
+    font-size: 1.1rem !important;
+    display: flex;   
+    column-gap: 10px;
+}
+
+.address{
+    font-size: 0.95rem !important;
+    margin-left: 35px !important;
+}
+
+@media screen and (max-width:500px) {
+    .committee{
+        width: 96%;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:500px) {
+    .committee{
+        width: 90%;
+    }
+}

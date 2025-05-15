@@ -1,0 +1,52 @@
+.marqueeDiv {
+  padding: 10px 0;
+  background: #fffbe7;
+  border-bottom: 2px solid #ffe0b2;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.marqueeIcon {
+  font-size: 1.5em;
+  margin: 0 18px 0 10px;
+  color: #e65100;
+  flex-shrink: 0;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+
+.marqueeList {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.marqueeList p {
+  color: #c60f0f;
+  margin: 0 30px;
+  font-weight: 600;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .marqueeDiv {
+    padding: 6px 0;
+  }
+  .marqueeIcon {
+    font-size: 1.1em;
+    margin: 0 8px 0 4px;
+  }
+  .marqueeList p {
+    font-size: 0.95em;
+    margin: 0 10px;
+  }
+}

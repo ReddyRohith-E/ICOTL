@@ -1,0 +1,140 @@
+.contactUs {
+  padding: 5px 20px;
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  z-index: 100;
+}
+
+.contactUs .contactUsBtn {
+  width: 140px;
+  background-image: linear-gradient(to right, #02266f, #0039e5) !important;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 0 2px 8px rgba(2, 38, 111, 0.15);
+  transition: box-shadow 0.2s, background 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.contactUs .contactUsBtn:hover,
+.contactUs .contactUsBtn:focus {
+  background-image: linear-gradient(to right, #0039e5, #02266f) !important;
+  box-shadow: 0 4px 16px rgba(2, 38, 111, 0.25);
+}
+
+.contactUsBody {
+  display: none;
+  transition: all 0.5s;
+}
+
+.contactUsBody.active {
+  position: fixed;
+  bottom: 60px;
+  right: 25px;
+  width: 350px;
+  min-height: 260px;
+  max-height: 90vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(120deg, #fffbe7 0%, #ffe0b2 100%);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(44, 44, 44, 0.18);
+  padding: 28px 18px 18px 18px;
+  transition: all 0.5s;
+  z-index: 200;
+  overflow-y: auto;
+}
+
+.contactUsDetails {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.contactUsCloseBtn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #02266f;
+  font-size: 1.3em;
+  padding: 4px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.contactUsCloseBtn:hover,
+.contactUsCloseBtn:focus {
+  background: #e3e3e3;
+  outline: none;
+}
+
+.contactUsName {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #02266f;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+
+.contactUsDetails label {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.contactUsDetails span {
+  font-size: 0.98em;
+  color: #444;
+}
+
+.contactUsDetails .emailRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 32px;
+  background: #f7f7ff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #0039e5;
+  box-shadow: 0 1px 4px rgba(2, 38, 111, 0.07);
+}
+
+@media screen and (max-width: 550px) {
+  .contactUs {
+    right: 0 !important;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    z-index: 104;
+    padding: 0;
+  }
+  .contactUs .contactUsBtn {
+    width: 90vw;
+    min-width: 0;
+    font-size: 1em;
+    border-radius: 0;
+  }
+  .contactUsBody.active {
+    right: 0;
+    left: 0;
+    width: 100vw;
+    min-width: 0;
+    border-radius: 0;
+    padding: 18px 4vw 12px 4vw;
+  }
+}

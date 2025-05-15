@@ -1,0 +1,43 @@
+.registrationBody {
+  margin: 0px auto;
+  width: 90%;
+  max-width: 900px;
+  padding-bottom: 100px;
+}
+
+.tableTitle {
+  text-align: center;
+  padding: 30px 0px 15px 0px;
+}
+
+.tableTitle label {
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: solid 3px #f58f00;
+  max-width: auto;
+}
+
+.tableTitle p{
+    font-size: 15px;
+    color: #e28400;
+}
+
+.registrationNoteListItem{
+  padding-left: 5px !important;
+  text-align: justify !important;
+  line-height: 28px !important;
+}
+.notesListItemIcon{
+  min-width : 30px !important;
+}
+.brightnessIcon{
+  font-size: 8px !important;
+  /* color: black; */
+}
+
+@media screen and (max-width: 500px) {
+  .registrationBody {
+    margin: 0 !important;
+    width: 100%;
+  }
+}
