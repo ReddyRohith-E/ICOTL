@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./countDown.css";
+import "./CountDown.css";
 
 const CountDown = () => {
     const countToDate = new Date("December 06, 2025 23:59:59");

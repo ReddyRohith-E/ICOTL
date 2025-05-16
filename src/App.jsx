@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Components/NavBar/Navbar'
+import Navbar from './Components/Navbar/navbar'
 import {Router} from './router/router'
 import ContactUs from './Components/Contact_Us/contactUs';
 import Footer from './Components/Footer/footer'
