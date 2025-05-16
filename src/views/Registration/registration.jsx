@@ -12,7 +12,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Brightness1Icon from "@mui/icons-material/Brightness1";
-import PageNote from "../pageNote.jsx/pageNote";
+import PageNote from "../pageNote/pageNote";
 import "./registration.css";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({

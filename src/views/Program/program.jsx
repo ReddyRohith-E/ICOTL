@@ -1,6 +1,6 @@
 import React from 'react'
 import './program.css'
-import PageNote from '../pageNote.jsx/pageNote'
+import PageNote from '../pageNote/pageNote'
 
 export default function Program() {
   return (

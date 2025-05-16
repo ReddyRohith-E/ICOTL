@@ -53,16 +53,25 @@ export default function Home() {
             </p>
             <p className="line_5">Date to be announced</p>
           </div>
-          <CountDown />
         </div>
       </div>
-      <Marquee />
-      <div className="homePageLogosDiv">
-        <img src={homePageImages2} alt="MITS Logo" className="homePageLogo" />
-        <img src={homePageImages1} alt="IEEE Logo" className="homePageLogo" />
-        <img src={homePageImages3} alt="Iwate Logo" className="homePageLogo" />
-        <img src={homePageImages4} alt="CYUT Logo" className="homePageLogo" />
+
+      {/* New header flex container */}
+      <div className="homepage-header">
+        <div className="homepage-marquee">
+          <Marquee />
+        </div>
+        <div className="homepage-countdown">
+          <CountDown />
+        </div>
+        <div className="homepage-logos">
+          <img src={homePageImages2} alt="MITS Logo" className="homePageLogo" />
+          <img src={homePageImages1} alt="IEEE Logo" className="homePageLogo" />
+          <img src={homePageImages3} alt="Iwate Logo" className="homePageLogo" />
+          <img src={homePageImages4} alt="CYUT Logo" className="homePageLogo" />
+        </div>
       </div>
+
       <div className="HomePageCard">
         <Card
           sx={{

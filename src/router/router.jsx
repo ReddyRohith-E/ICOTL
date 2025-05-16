@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router-dom";
-import { appConstants } from '../constants/appConstants'
+import { appConstants } from '../constants/appConstants';
 import Home from "../views/Home/home";
 import CallForPaper from "../views/Call_For_Paper/callForPaper"
 import Committe from "../views/Committee/committe";

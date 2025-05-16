@@ -1,5 +1,5 @@
 import React from 'react'
-import PageNote from '../pageNote.jsx/pageNote'
+import PageNote from '../pageNote/pageNote'
 import './access.css'
 
 export default function Access() {
